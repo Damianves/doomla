@@ -11,6 +11,12 @@
 
 			
 			?>
+			<nav>
+			
+				<?php echo getMenu($menu);?>
+
+			
+			</nav>
 			
 			
 			

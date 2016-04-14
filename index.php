@@ -1,6 +1,4 @@
-<?php
-$page= array("page"=>"home");
-?>
+<?php require("index.logic.php"); ?>
 
 <!DOCTYPE html>
 <html>
@@ -8,12 +6,8 @@ $page= array("page"=>"home");
 	<title>index.php</title>
 </head>
 <body>
+	<?= getMenu(); ?>
+	<?= getContent(); ?>
 
-
-
-<?php
-	require "page_logic.php";
-	require "templates/template.php";
-?>
 </body>
 </html>

@@ -8,11 +8,6 @@ $content = $result->fetch_assoc();
 
 
 
-
-
-
-
-
 function getContent($content){
 
 	return $content['content'];
