@@ -12,7 +12,7 @@ function getContent() {
 	$rows = $result->num_rows;
 
 	if ($rows == 0) {
-		return "<h1>Error</h1>"; //foutmelding;
+		return "<h1>Error</h1>"; //foutmelding
 	}
 
 	$content = $result->fetch_assoc();

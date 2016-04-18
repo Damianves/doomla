@@ -1,0 +1,17 @@
+table, td, th {
+	border : 1px solid black;
+	border-collapse : collapse;
+	color : black;
+}
+
+td, th {
+	padding : 2px;
+}
+
+th {
+	text-align : left;
+}
+
+h1{
+font-size: 20px;
+}
