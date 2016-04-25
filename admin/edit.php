@@ -15,6 +15,10 @@ require_once "edit_logic.php";
 			<input type="text" id="menuoption" name="menuoption" value="<?=$tableitem['menuoption']?>">
 		</div>
 		<div>
+			<label for="menuorder">volgorde</label>
+			<input type="number" name="menuorder" value="<?=$tableitem['menuorder']?>">
+		</div>
+		<div>
 			
 			<label for="Menu-optie">Inhoud:</label>
 			<input type="text" id="content" name="content" value="<?=$tableitem['content']?>">
@@ -23,5 +27,8 @@ require_once "edit_logic.php";
 		<div>
 			<label></label>
 			<input type="submit" value="Save">
+		</div>
+		<div>
+			<h1><a href="http://localhost/doomla/admin/index.php">anuleren</a></h1>
 		</div>
 	</form>

@@ -19,11 +19,11 @@
 		$page = $db->escape_string($_POST["page"]);
 		$menuoption = $db->escape_string($_POST["menuoption"]);
 		$content = $db->escape_string($_POST["content"]);
-
+		$menuorder = $db ->escape_string($_POST["menuorder"]);
 		
 		
 		// Prepare query and execute
-		$query = "UPDATE pagecontent set page='$page', menuoption='$menuoption', content='$content' where id=$id";
+		$query = "UPDATE pagecontent set page='$page', menuoption='$menuoption', content='$content', menuorder='$menuorder' where id=$id";
 		$result = $db->query($query);
 	
     // Tell the browser to go back to the index page.
