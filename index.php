@@ -1,4 +1,5 @@
 <?php require("index.logic.php"); ?>
+<?php $template="template.php"; ?>
 
 <!DOCTYPE html>
 <html>

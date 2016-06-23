@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Doomla</title>
-	<link rel="stylesheet"  href="templates/template.php">
+	<link rel="stylesheet"  href="templates/"<?php echo $template;?>"">
 </head>
 <body>
 	<section>
